@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-size: 1.25rem;
+  --margin: 1.5rem;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: var(--font-size);
+  margin: var(--margin);
+  padding: 0;
+  text-wrap-style: pretty;
+}
+
+a:visited {
+  color: #0000ee;
+  cursor: pointer;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  transform: rotate(4deg);
+}
